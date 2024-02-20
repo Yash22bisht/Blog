@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/style.css">
+
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>BlogVerse</title>
+</head>
+
+<body>
+    <div class="main w-screen ">
+        <div class="head w-screen bg-black  ">
+            <header
+                class="w-[82vw] bg-black border-b-2 border-gray-700 mx-auto h-28 flex relative items-center justify-between  py-10">
+                <div class="social flex gap-2 items-center">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/b_logo.png" alt="logo"
+                            class="hover:border-b-2 border-blue-200 pb-1" /></a>
+                    <a href="https://www.Instagram.com/" target="_blank"><img src="images/b_logo2.png" alt="logo"
+                            class="hover:border-b-2 border-blue-200 pb-1" /></a>
+                    <a href="https://www.Twitter.com/" target="_blank"><img src="images/b_logo3.png" alt="logo"
+                            class="hover:border-b-2 border-blue-200 pb-1" /></a>
+                </div>
+
+                <h1 class="text-white text-6xl ">@BlogVerse.</h1>
+                <div class="sidehead flex gap-2">
+                    <a href="/login"><input type="button" value="Sign In"
+                            class="text-white border-2 rounded-2xl px-2 py-1 w-20 text-lg hover:text-blue-500 "></a>
+                    <a href="/register"><input type="button" value="Sign Up"
+                            class="text-white border-2 rounded-2xl px-2 py-1 w-20 text-lg hover:text-blue-500"></a>
+                </div>
+
+
+            </header>
+            <nav class="w-[82vw] bg-black h-20 mt-5 flex justify-center items-center mx-auto">
+                <ul>
+                    <li><a href="/" class="hover:border-b-2 border-blue-200 pb-1 ">Home</a></li>
+                    <li class="dropdown">
+                        <a href="" class="dropbtn hover:border-b-2 border-blue-200 pb-1">Blogs</a>
+                        <div class="dropdown-content rounded-lg w-2  ">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="" class="dropbtn hover:border-b-2 border-blue-200 pb-1 ">Categories</a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </li>
+                    <li><a href="" class=" hover:border-b-2 border-blue-200 pb-1 ">Styles</a></li>
+                    <li><a href="/About" class="hover:border-b-2 border-blue-200 pb-1 ">About</a></li>
+                    <li><a href="/contact" class="hover:border-b-2 border-blue-200 pb-1 ">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content w-[82vw]  mx-auto h-[200vh] flex  flex-col">
+            <h1 class="text-6xl font-extrabold mx-auto mb-4">About Us</h1>
+            <p class="text-lg w-[800px] mx-auto">
+                Welcome to Your Blog Name! We're passionate about [Your Blog Niche] and
+                committed to delivering engaging,
+                informative content. Our team is dedicated to providing valuable insights, tips, and stories. Meet the
+                faces behind the blog below.
+            </p>
+            <div class="mission w-full h-[60vh] mt-28 flex">
+                <div
+                    class=" w-[45vw] h-full  flex justify-center items-center bg-red-500 rounded-tl-[60%] rounded-br-[60%] ">
+                    <div class="flex-col ">
+                        <h1 class="text-5xl w-72 mx-auto mb-7 ">Our mission</h1>
+                        <p class="w-[500px]">"Our mission at BlogVerse is to empower and inspire individuals through
+                            meaningful and engaging content. We strive to create a platform where diverse voices can be
+                            heard, ideas can be shared, and knowledge can be exchanged. Our commitment is to provide
+                            valuable insights, thought-provoking articles, and practical advice to our readers. We
+                            believe in fostering a community that encourages collaboration, learning, and personal
+                            growth. Join us on this journey as we explore, learn, and celebrate the rich tapestry of
+                            ideas that make each individual's story unique. Together, let's build a space where
+                            creativity, knowledge, and community thrive."</p>
+                    </div>
+                </div>
+                <div class="w-[36vw] h-full flex items-center justify-center">
+                    <img src="/images/pngegg.png" class="w-[350px]" alt="">
+                </div>
+            </div>
+
+            <div class="target w-full h-[61vh] mt-28 flex">
+                <div class="w-[36vw] h-full flex items-center justify-center">
+                    <img src="/images/ourvision.png" class="w-[300px]" alt="">
+                </div>
+                <div
+                    class=" w-[45vw] h-full  flex justify-center items-center bg-blue-500 rounded-tl-[60%] rounded-br-[60%] ">
+                    <div class="flex-col ">
+                        <h1 class="text-5xl w-72 mx-auto mb-7 ">Our Vision</h1>
+                        <p class="w-[500px]">
+                            "Our vision at [Your Blog Name] is to be a catalyst for positive change and inspiration in
+                            the lives of our readers. We envision a vibrant community where diverse voices converge to
+                            share, learn, and grow. Through thought-provoking and insightful content, we aim to spark
+                            curiosity, foster creativity, and ignite meaningful conversations. We see our blog as a hub
+                            for knowledge, collaboration, and empowerment—a space where individuals from all walks of
+                            life come together to explore new ideas, gain valuable insights, and find the motivation to
+                            pursue their passions. As we continue our journey, we aspire to be a trusted source of
+                            information and a driving force behind the positive transformations that our readers
+                            experience in their personal <br> and professional lives."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
