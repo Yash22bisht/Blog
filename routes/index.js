@@ -1,11 +1,13 @@
 var express = require('express');
+require('dotenv').config()
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose')
 var router = express.Router();
 const {User} = require('../models/users.js')
+const db = process.env.MONGODB_URL
 
 const condb = async()=>{
-  const conn = await mongoose.connect("mongodb://localhost:27017/Blogverse");
+  const conn = await mongoose.connect(db);
   console.log('connected to mongoDb');
 }
 
